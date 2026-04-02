@@ -1,0 +1,34 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    container_name: teste-tinnova
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/tinnova-db
+      SPRING_DATASOURCE_USERNAME: admin
+      SPRING_DATASOURCE_PASSWORD: admin
+      SPRING_REDIS_HOST: redis
+      SPRING_REDIS_PORT: 6379
+
+  postgres:
+    image: postgres:15
+    container_name: postgres-tinnova
+    restart: always
+    environment:
+      POSTGRES_DB: tinnova-db
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    container_name: postgres-redis
+    ports:
+      - "6379:6379"
