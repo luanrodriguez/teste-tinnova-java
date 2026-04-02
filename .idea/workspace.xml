@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06cf73d9-5c4b-465b-b842-99c698db62f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/teste-tinnova-java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/teste-tinnova-java/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="06cf73d9-5c4b-465b-b842-99c698db62f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,8 +68,6 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\leticia\Desktop\codes\learning-java\teste-tinnova-java" />
-      <recent name="C:\Users\leticia\Desktop\codes\learning-java\teste-tinnova-java\teste-tinnova-java" />
       <recent name="C:\Users\leticia\Desktop\codes\learning-java\teste-tinnova-java\teste-tinnova-java\src\main\resources\db\migration" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -189,7 +179,7 @@
       <updated>1774987718381</updated>
       <workItem from="1774987719570" duration="41619000" />
       <workItem from="1775132426189" duration="209000" />
-      <workItem from="1775132650363" duration="930000" />
+      <workItem from="1775132650363" duration="712000" />
     </task>
     <servers />
   </component>
