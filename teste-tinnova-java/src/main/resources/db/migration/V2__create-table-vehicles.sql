@@ -1,0 +1,8 @@
+CREATE TABLE VEHICLES(
+    id TEXT PRIMARY KEY,
+    brand TEXT NOT NULL,
+    plate TEXT NOT NULL UNIQUE,
+    color TEXT NOT NULL,
+    year INT NOT NULL,
+    price FLOAT NOT NULL
+)

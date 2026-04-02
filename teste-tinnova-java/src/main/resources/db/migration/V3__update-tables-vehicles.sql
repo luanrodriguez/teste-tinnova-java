@@ -1,0 +1,2 @@
+ALTER TABLE vehicles
+    ADD COLUMN deleted BOOLEAN DEFAULT FALSE;
